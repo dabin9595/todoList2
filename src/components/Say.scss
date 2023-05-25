@@ -1,0 +1,41 @@
+.Say {
+  max-width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: rgb(168, 174, 174);
+  .todoListBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    input {
+      flex: 1;
+      margin-right: 10px;
+      height: 25px;
+      border-radius: 15px;
+      border: none;
+      outline: none;
+      padding-left: 15px;
+      &::placeholder {
+        color: black;
+      }
+    }
+    button {
+      width: 5rem;
+      height: 25px;
+      cursor: pointer;
+      border-radius: 15px;
+      outline: none;
+      border: none;
+      &:hover {
+        background-color: antiquewhite;
+      }
+    }
+  }
+  .listBox {
+    text-align: left;
+    ul {
+      list-style-type: none;
+    }
+  }
+}
