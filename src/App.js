@@ -1,6 +1,7 @@
 import Say from "./components/Say";
 import Counter from "./components/Counter";
 import Id from "./components/Id";
+import Average from "./components/Average";
 import "./App.css";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <div>
         <Id />
         <Counter />
+        <Average />
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import React, { useReducer } from "react";
+import React, { useReducer, useState } from "react";
 function reducer(state, action) {
   return {
     ...state,
@@ -14,6 +14,7 @@ const Id = () => {
   const onChange = (e) => {
     dispatch(e.target);
   };
+
   return (
     <div className="Id">
       <div>
